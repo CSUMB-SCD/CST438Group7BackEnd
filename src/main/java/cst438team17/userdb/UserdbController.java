@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import cst438team17.userdb.entities.Users;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendprctc.herokuapp.com/")
 @RestController
 public class UserdbController{
 
